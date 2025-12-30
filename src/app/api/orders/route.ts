@@ -58,7 +58,7 @@ export async function POST(request: Request) {
     phone: body.phone,
     payment: body.payment,
     consent: Boolean(body.consent),
-    price: body.price ?? "17€",
+    price: body.price ?? "20€",
     createdAt: new Date().toISOString(),
   };
 

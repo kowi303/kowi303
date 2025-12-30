@@ -99,7 +99,7 @@ export default function OrdersPage() {
                 <span>{order.phone}</span>
                 <span>{order.size}</span>
                 <span>{order.payment}</span>
-                <span>{order.price ?? "17€"}</span>
+                <span>{order.price ?? "20€"}</span>
               </div>
             ))
           )}

@@ -28,7 +28,7 @@ export default function Home() {
       phone: formData.get("phone"),
       payment: formData.get("payment"),
       consent: formData.get("consent") === "on",
-      price: "17€",
+      price: "20€",
     };
 
     try {
@@ -168,7 +168,7 @@ export default function Home() {
 
               <div className="price-row">
                 <span>Prezzo</span>
-                <strong>17€</strong>
+                <strong>20€</strong>
               </div>
 
               <label className="consent">

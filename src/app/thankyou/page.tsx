@@ -69,7 +69,7 @@ export default function ThankYouPage() {
             </div>
             <div>
               <span>Prezzo</span>
-              <strong>{order?.price ?? "17€"}</strong>
+              <strong>{order?.price ?? "20€"}</strong>
             </div>
           </div>
         </section>
